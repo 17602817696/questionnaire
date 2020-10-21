@@ -7,6 +7,7 @@ Vue.use(VueRouter)
 export default new VueRouter({
   routes : [
     { path: '/',name: 'Home',component: Home},
-    { path: '/questionnaire',name: 'questionnaire',component: () => import('../views/questionnaire.vue')}
+    { path: '/questionnaire',name: 'questionnaire',component: () => import('../views/questionnaire.vue')},
+    { path: '/myinfo',name: 'myinfo',component: () => import('../views/myinfo.vue')},
   ]
 })

@@ -1,11 +1,11 @@
 <template>
   <div class="home">
     <div class="welcome_page">
-      <div class="slideInLeft fz26 fbold cfff" style="animation-duration:2s;animation-delay:1s;animation-iteration-count:1;animation-fill-mode:both;">欢迎来到调查问卷</div>
+      <div class="bounce fz26 fbold cfff" style="animation-duration:2s;animation-delay:0s;animation-iteration-count:1;animation-fill-mode:both;">欢迎来到调查问卷</div>
       <!-- <div class="">欢迎来到调查问卷</div> -->
     </div>
     <div class="home_enterInto">
-      <button class="slideInRight" style="animation-duration:2s;animation-delay:1s;animation-iteration-count:1;animation-fill-mode:both;" @click="enterInto">进入问卷</button>
+      <button class="bounce" style="animation-duration:2s;animation-delay:0s;animation-iteration-count:1;animation-fill-mode:both;" @click="enterInto">进入问卷</button>
     </div>
   </div>
 </template>
@@ -16,7 +16,7 @@ export default {
   name: 'Home',
   methods: {
     enterInto() {
-      this.$router.push("/questionnaire")
+      this.$router.push("/myinfo")
     }
   },
 }

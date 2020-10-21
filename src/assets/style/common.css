@@ -102,6 +102,7 @@ table {
 .boreeeb2 {border-bottom: 2px solid #eee;}
 .borf5f5f5b4 {border-bottom: 4px solid #f5f5f5;}
 .boreeeb1 {border-bottom: 1px solid #eee;}
+.borb999 {border-bottom: 1px solid #999;}
 .bor999 {border: 1px solid #999;}
 .borccc {border: 1px solid #cccccc;}
 .borFB7B0A{border:1px solid #FB7B0A;}
@@ -249,6 +250,11 @@ table {
 .flex8 {flex: 8;}
 .flex8_5 {flex: 8.5;}
 .flex9 {flex: 9;}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .flex-wrep {
   display: flex;
   flex-wrap: wrap;
